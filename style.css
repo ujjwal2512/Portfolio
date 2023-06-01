@@ -292,7 +292,9 @@ span {
 }
 
 .contact {
+    margin-top: 5vh;
     min-height: 20vh;
+    background-color:  rgb(14, 14, 46);
 }
 
 .contactbox {
@@ -328,12 +330,12 @@ span {
     }
 
     .projectcontent h4 {
-        font-size: 1.5rem;
+        font-size: 2rem;
 
     }
 
     .projectcontent p {
-        font-size: 1rem;
+        font-size: 1.5rem;
         margin: .3rem 0 1rem;
     }
 
@@ -406,15 +408,50 @@ span {
     .projectbox {
         align-self: center;
         justify-self: center;
+        width: 40rem;
+        height: 25rem;
     }
 
     .projectcontent h4 {
-        font-size: 1.3rem;
+        font-size: 3rem;
 
     }
 
     .projectcontent p {
-        font-size: 1rem;
+        font-size: 2.2rem;
+        margin: .3rem 0 1rem;
+    }
+
+    .projectcontent a {
+        background-color: white;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+    }
+
+    .projectcontent a i {
+        font-size: 1.5rem;
+        color: grey;
+    }
+
+
+    .btn {
+
+        font-size: 1.2rem;
+    }
+}
+
+@media(max-width:650px) {
+    .projectcontent h4 {
+        font-size: 3rem;
+
+    }
+
+    .projectcontent p {
+        font-size: 2.2rem;
         margin: .3rem 0 1rem;
     }
 
@@ -434,41 +471,10 @@ span {
     }
 
     .btn {
-
-        font-size: 1.2rem;
-    }
-}
-
-@media(max-width:650px) {
-    .projectcontent h4 {
-        font-size: 0.7rem;
-
-    }
-
-    .projectcontent p {
-        font-size: 0.5rem;
-        margin: .3rem 0 1rem;
-    }
-
-    .projectcontent a {
-        background-color: white;
-        display: inline-flex;
-        justify-content: center;
-        align-items: center;
-        width: 1rem;
-        height: 1rem;
-        border-radius: 50%;
-    }
-
-    .projectcontent a i {
-        font-size: 0.5rem;
-        color: grey;
-    }
-
-    .btn {
         margin-top: 10px;
         font-size: 1rem;
     }
+
 
     .about-content h3 {
         text-align: left;
@@ -490,6 +496,12 @@ span {
     .about-img img {
         width: 35vw;
         border-radius: 50%;
+    }
+    .projectbox {
+        align-self: center;
+        justify-self: center;
+        width: 40rem;
+        height: 25rem;
     }
 
 
