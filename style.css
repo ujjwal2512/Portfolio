@@ -59,19 +59,6 @@ section {
     color: rgb(91, 244, 91);
 }
 
-.navbar a::after{
-    content:"";
-    display:block;
-    height: 2px;
-    width:50%;
-    background-color: rgb(91,244,91);
-    transform:scaleX(0);
-    transform-origin:left;
-    transition:transform 0.3s ease;
-}
-.navbar a:hover::after{
-    transform:scaleX(1);
-}
 
 
 #menu-icon {
