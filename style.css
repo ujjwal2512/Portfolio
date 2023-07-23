@@ -55,16 +55,15 @@ section {
 
 }
 
-.navbar a:hover,
-.navbar a.active {
+.navbar a:hover{
     color: rgb(91, 244, 91);
 }
 
 .navbar a::after{
     content:"";
     display:block;
-    height: 4px;
-    width:100%;
+    height: 2px;
+    width:50%;
     background-color: rgb(91,244,91);
     transform:scaleX(0);
     transform-origin:left;
